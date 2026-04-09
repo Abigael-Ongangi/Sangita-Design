@@ -2,38 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Website Slider</title>
-    <link rel="stylesheet" href="sangita.css">
-    <link rel="stylesheet" href="slider.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangita Design</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #5a2d0c;
+            color: gold;
+            text-align: center;
+        }
+
+        h1 {
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.4s, box-shadow 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .price {
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-bottom: 15px;
+            padding: 8px 15px;
+            background: gold;
+            color: black;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            color: black;
+        }
+    </style>
 </head>
+
 <body>
 
-   <b> <p>Here is a glimpse of what we love creating</p></b>
+    <h1>✨ Sangita Design Collection ✨</h1>
 
-<div class="slider">
-    <div class="slides">
-        <div class="slide">
-            <img src="download (3).jpeg" alt="Slide 1">
-            <div class="caption">Creative Designs</div>
-        </div>
+    <div class="grid">
 
-        <div class="slide">
-            <img src="African Wearrrr.jpeg" alt="Slide 2">
-            <div class="caption">Modern & Clean</div>
-        </div>
-
-        <div class="slide">
-            <img src="download(4).jpeg" alt="Slide 3">
-            <div class="caption">Bring Your Ideas to Life</div>
-        </div>
+        <div class="card"><img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=400"><h3>Elegant Gown</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400"><h3>Classic Suit</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400"><h3>Casual Wear</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400"><h3>Evening Dress</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1594736797933-d0d6f1d6f6c2?w=400"><h3>African Print</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1544441893-675973e31985?w=400"><h3>Wedding Dress</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550639525-c97d455acf70?w=400"><h3>Office Wear</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1520975916090-3105956dac38?w=400"><h3>Summer Outfit</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=400"><h3>Street Style</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=400"><h3>Luxury Outfit</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b?w=400"><h3>Denim Style</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400"><h3>Party Dress</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1520974735194-7c49b9b9f2c0?w=400"><h3>Kids Fashion</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1680759170077-e9e2d838a34c?w=400"><h3>Sport Wear</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?w=400"><h3>Traditional Wear</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1618354691417-8c3e1d5c93d1?w=400"><h3>Modern Chic</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1592878904946-b3cd8ae243d0?w=400"><h3>Luxury Gown</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400"><h3>Bridal Style</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=400"><h3>Minimal Outfit</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1663044022648-08bf87cfdc05?w=400"><h3>Designer Collection</h3></div>
     </div>
-</div>
+        
+    
 
-<footer>
-    <p>
-        📞 +254 728388470 <br>
-        &copy; 2026 Sangita Designs
-    </p>
-</footer>
 </body>
 </html>
